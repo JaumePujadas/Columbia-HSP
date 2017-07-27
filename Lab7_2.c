@@ -27,6 +27,7 @@ int main()
 		scanline(book[i].author, 100);
 		scanline(book[i].title, 100);
 		scanline(book[i].publisher, 100);
+		char ignore;
 		do
 			ignore = getchar();
 			while(ignore !='\n');

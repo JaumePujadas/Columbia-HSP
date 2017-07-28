@@ -1,0 +1,3 @@
+1	Hydrogen	H	1.008
+2	Helium		He	4.003
+3	Lithium		Li	6.940

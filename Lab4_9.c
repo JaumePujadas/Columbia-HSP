@@ -62,11 +62,3 @@ int hangman()
 	}
 	match=1;
 }
-
-
-/* 	Best	Error	Message		Ever
-
-*** stack smashing detected ***: ./a.out terminated
-Aborted (core dumped)
-
-*/

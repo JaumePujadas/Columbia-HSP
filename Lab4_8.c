@@ -4,7 +4,7 @@
   Instructor: <Mr. Gilbert Pajela>
   Assignment: <Lab 4>
 
-  This program creates arrays, multiplies them, and displays them in rows  
+  This program normalizes vectors
 */
 #include <stdio.h>
 #include <math.h>
@@ -54,10 +54,3 @@ float printVec(float normVec[])
 	}
 	printf("%f |", normVec[x-1]);
 }
-
-/* 	Best	Error	Message		Ever
-
-*** stack smashing detected ***: ./a.out terminated
-Aborted (core dumped)
-
-*/

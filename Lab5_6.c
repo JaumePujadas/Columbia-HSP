@@ -4,7 +4,7 @@
   Instructor: <Mr. Gilbert Pajela>
   Assignment: <Lab 5>
 
-  This program does ...
+  This program does reverses phrases
 */
 #include <stdio.h>
 char reverse(char values[]);

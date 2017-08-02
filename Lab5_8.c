@@ -4,7 +4,7 @@
   Instructor: <Mr. Gilbert Pajela>
   Assignment: <Lab 5>
 
-  This program organizes names
+  This program stores names in a file
 */
 #include <stdio.h>
 #include <string.h>
@@ -38,7 +38,7 @@ int main()
 	{
 		char temp1[100];
 		char temp2[100];
-		file = fopen("Names.txt", "w");
+		file = fopen("Names.txt", "a");
 		printf("Input your name in the following format: Lastname, Firstname MiddleInitial.\n");
 		scanf("%s %s %c", &temp1, &temp2, &d.middle);
 		char total[80];
@@ -58,7 +58,6 @@ int main()
 		strcat(total, " ");
 		strcat(total, d.middle);
 		strcat(total, "\n");
-		//puts(total);
 		fputs(total, file);
 	}
 }

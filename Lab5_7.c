@@ -32,7 +32,7 @@ int compare(char word1[], char word2[])
 			x2=i;
 		}
 	}
-	printf("%d, %d", x1, x2);
+	common[0]=' ';
 	while(word1[x1-1]==word2[x2-1])
 	{
 		common[y]=word1[x1-1];
@@ -43,7 +43,14 @@ int compare(char word1[], char word2[])
 	printf("The common suffix of %s and %s is \"", word1, word2);
 	for(int i=y;i>=0;i--)
 	{
-		printf("%c",common[i]);
+		if(common[0]!=' ')
+		{
+			printf("%c",common[i]);
+		}
+		else
+		{
+			printf("NULL");
+		}
 	}
 	printf("\"\n");
 }

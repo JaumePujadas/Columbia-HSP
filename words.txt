@@ -1,0 +1,16 @@
+Dog
+Bird
+Cat
+Horse
+Monkey
+Fish
+Tomato
+Apple
+Square
+Circle
+Parallelogram!
+Ketchup
+Mustard
+Lime
+Lemon
+!!!!!
